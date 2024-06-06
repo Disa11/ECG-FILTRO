@@ -19,6 +19,7 @@ function fileInfo = loadMatFileProperties(filePath)
         if isnumeric(varData) && isvector(varData)
             Fs = 500; % Suponiendo una frecuencia de muestreo fija de 250 Hz
             fileInfo.duration.(varName) = length(varData) / Fs;
+            disp(length(varData) / Fs);
         end
     end
 end

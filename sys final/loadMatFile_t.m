@@ -13,7 +13,7 @@ figure;
 %xlim([0 1000])
 
 %vector de tiempo Fs
-Fs = 250; %[Hz]
+Fs = 500; %[Hz]
 Ts = 1/Fs; %[s]
 
 N = length(val);
@@ -77,7 +77,7 @@ title('ECG en frecuencia');
 %---------------------------------------------------------------------------
 %filto de filterDesigner%
 
-Fs = 250;  % Sampling Frequency
+Fs = 500;  % Sampling Frequency
 
 N   = 10;  % Order
 Fc1 = 20;  % First Cutoff Frequency
